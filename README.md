@@ -5,19 +5,19 @@ This guide gets you started with gRPC in Java with a simple working example.
 # 1.从官网![https:grpc.io]进入java的官方学习指导页面
 
 ```
-1.克隆最新版本的栗子
+> 克隆最新版本的栗子
 git clone -b v1.11.0 https://github.com/grpc/grpc-java
-2.进入项目
+> 进入项目
 cd grpc-java
 ```
 
 3.运行一个grpc应用
 ```
-1.编译客户端和服务端
+> 编译客户端和服务端
 ./gradlew installDist
-2.运行服务端
+> 运行服务端
 ./build/install/examples/bin/hello-world-server
-3.运行客户端
+> 运行客户端
 ./build/install/examples/bin/hello-world-client
 ```
 恭喜，您刚刚使用GRPC运行客户端服务器应用程序。
