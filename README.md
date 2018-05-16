@@ -2,7 +2,7 @@
 This guide gets you started with gRPC in Java with a simple working example.
 - 这是一篇关于google的grpc框架的java版本的入门demo
 
-# 1.从 [官网] 进入java的官方学习指导页面
+# 1.从 [官网] 进入java的学习指导页面
 [官网]:https:grpc.io "官网"
 
 ```
