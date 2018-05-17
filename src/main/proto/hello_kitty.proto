@@ -18,6 +18,8 @@ option java_multiple_files = true;
 option java_package = "io.grpc.examples.hellokitty";
 option java_outer_classname = "HelloKittyProto";
 option objc_class_prefix = "HLK";
+import "google/api/annotations.proto";
+import "google/protobuf/wrappers.proto";
 
 package hellokitty;
 
@@ -25,6 +27,9 @@ package hellokitty;
 service HelloKitty {
     // Sends a greeting
     rpc SayHello (HelloKittyRequest) returns (HelloKittyReply) {
+        option (google.api.http) = {
+            get: "/crm/projectAssignPage"
+        };
     }
 }
 
