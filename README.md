@@ -1,7 +1,12 @@
-### 程序启动步骤
-# 1.启动服务端：运行 io/grpc/examples/helloworld/HelloWorldServer.java 的 main 方法
-# 2.启动客户端调用服务：运行：io/grpc/examples/helloworld/HelloWorldClient.java 的main 方法
-
+# 程序启动步骤
+### 1 启动服务端：
+```
+运行 io/grpc/examples/helloworld/HelloWorldServer.java 的 main 方法
+```
+### 2.启动客户端调用服务：
+```
+运行：io/grpc/examples/helloworld/HelloWorldClient.java 的main 方法
+```
 ---
 # grpc
 This guide gets you started with gRPC in Java with a simple working example.
