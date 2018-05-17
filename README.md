@@ -22,7 +22,7 @@ git clone -b v1.11.0 https://github.com/grpc/grpc-java
 cd grpc-java/examples/
 ```
 
-3.运行一个grpc应用
+1.运行一个grpc应用
 ```
 # 编译客户端和服务端
 ./gradlew installDist
@@ -34,7 +34,7 @@ cd grpc-java/examples/
 恭喜，您刚刚使用GRPC运行客户端服务器应用程序。
 
 
-4.更新一个grpc服务
+2.更新一个grpc服务
 现在让我们看看如何在服务器上为客户端调用一个额外的方法来更新应用程序。
 我们的服务是使用protocol buffers GRPC定义；你可以在java GRPC中找到许多关于如何在定义一个.proto。
 现在，您需要知道的是，服务器和客户端“存根”都有一个SayHello方法，
