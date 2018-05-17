@@ -9,7 +9,7 @@ This guide gets you started with gRPC in Java with a simple working example.
 # 克隆最新版本的栗子
 git clone -b v1.11.0 https://github.com/grpc/grpc-java
 # 进入项目
-cd grpc-java
+cd grpc-java/examples
 ```
 
 3.运行一个grpc应用
